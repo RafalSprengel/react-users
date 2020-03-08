@@ -1,0 +1,15 @@
+#addButWrap{
+    margin: 20px 0;
+    text-align: center;
+}
+    #addButWrap > button{
+        padding: 10px 8px;
+        background-color: transparent;
+        border: 1px solid black;
+        cursor: pointer;
+        transition: background-color .2s, color .2s;
+        }
+    #addButWrap > button:hover{
+        background-color: black;
+        color: white;
+    }
